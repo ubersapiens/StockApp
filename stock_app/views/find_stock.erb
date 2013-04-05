@@ -1,0 +1,19 @@
+<div id="container">
+	<div class="form">
+		<h1>Find a stock</h1>
+
+		<form action="/stock" method="post">
+		  <input type="text" name="ticker" placeholder="Ticker">
+		  <input type="submit" value="Submit">
+		</form>
+	</div>
+
+	<div class="stockslist">
+		<h1 style= "color: black; font-size: 14px">Top Stocks in the Market<br> 
+		<h2 style= "color: black; font-size: 12px"><% values.each do |key, value|%>
+		<%= key.to_s + " " + value %> <br>
+		<% end %>
+		</h2>
+		</h1>
+	</div>
+</div>

@@ -1,0 +1,14 @@
+body {
+	background-color: yellow;
+	background-image: url(http://www.lold.org/uploads/2010/09/dollars.jpeg);
+}
+
+.form {
+	font: 18px Tahoma;
+	color: black;
+}
+
+.stockslist {
+	font: 12px Verdana;
+	color: gray;
+}
